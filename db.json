@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Introduction to JSON Server",
+      "body": "This post explains how to use JSON Server to quickly set up a mock REST API.",
+      "author": "John Doe",
+      "createdAt": "2025-06-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Understanding REST APIs",
+      "body": "Learn the basics of REST APIs, HTTP methods, and how clients communicate with servers.",
+      "author": "Jane Smith",
+      "createdAt": "2025-06-05T14:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Frontend Development with React",
+      "body": "React is a powerful JavaScript library for building user interfaces.",
+      "author": "Alice Johnson",
+      "createdAt": "2025-06-10T09:15:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Exploring Node.js",
+      "body": "Node.js allows you to run JavaScript on the server side and build scalable network applications.",
+      "author": "Bob Brown",
+      "createdAt": "2025-06-12T11:45:00Z"
+    },
+    {
+      "id": 5,
+      "title": "What is JSON?",
+      "body": "JSON (JavaScript Object Notation) is a lightweight data-interchange format that's easy for humans to read and write.",
+      "author": "Chris Green",
+      "createdAt": "2025-06-14T08:20:00Z"
+    }
+  ]
+}
