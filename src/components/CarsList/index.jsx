@@ -26,14 +26,14 @@ const Cars = () => {
         <p className="text-xl text-red-500">Error fetching cars</p>
       </div>
     );
-
+console.log(data)
   return (
     <div className="bg-gray-100 min-h-screen py-10 px-4">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-10">🚗 Available Cars</h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {data.map((car) => (
+          {data?.map((car) => (
             <div
               key={car.id}
               className="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:shadow-xl hover:scale-105"
