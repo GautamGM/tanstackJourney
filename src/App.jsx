@@ -6,8 +6,11 @@ import DocumentationPage from "./components/pages/DocumentationPage";
 import ExamplesPage from "./components/pages/ExamplesPage";
 import CommunityPage from "./components/pages/CommunityPage";
 import "./index.css";
-import HomePage from "./components/Homepage";
 import PostFeed from "./components/pages/Code";
+import HomePage from "./components/HomePage";
+import PostDetailPage from "./components/PostDetailPage";
+import Cars from "./components/CarsList";
+import InfiniteScroll from "./components/InfiniteScroll";
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +22,9 @@ function App() {
           <Route path="examples" element={<ExamplesPage />} />
           <Route path="community" element={<CommunityPage />} />
           <Route path="code" element={<PostFeed />} />
+          <Route path="post-detail/:id" element={<PostDetailPage/>}/>
+          <Route path="cars" element={<Cars/>}/>
+          <Route  path="infinite-scroll" element={<InfiniteScroll/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

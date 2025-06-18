@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
-import { CodeIcon } from "lucide-react";
+import { CarIcon, CodeIcon, ScrollIcon } from "lucide-react";
 
 const Navbar = ({ isSidebarOpen, setIsSidebarOpen, isMobile }) => {
   const location = useLocation();
@@ -13,6 +13,8 @@ const Navbar = ({ isSidebarOpen, setIsSidebarOpen, isMobile }) => {
     { id: 4, name: "Examples", link: "/examples", icon: "💡" },
     { id: 5, name: "Community", link: "/community", icon: "👥" },
     { id: 6, name: "Code", link: "/code", icon: <CodeIcon /> },
+    { id: 7, name: "Cars", link: "/cars", icon: <CarIcon /> },
+    { id: 7, name: "Infinite-Scroll", link: "/infinite-scroll", icon: <ScrollIcon /> },
   ];
 
   // Close sidebar when route changes on mobile

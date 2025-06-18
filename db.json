@@ -35,5 +35,358 @@
       "author": "Chris Green",
       "createdAt": "2025-06-14T08:20:00Z"
     }
-  ]
+  ],
+ "cars": [
+  {
+    "id": 1,
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2020,
+    "image": "https://www.oaklawntoyota.com/wp-content/uploads/2020/01/2020-toyota-corolla-blue.jpg"
+  },
+  {
+    "id": 2,
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2020,
+    "image": "https://cars.usnews.com/static/images/Auto/izmo/i24452199/2020_toyota_corolla_angularfrontsilver_1600.jpg"
+  },
+  {
+    "id": 3,
+    "make": "Toyota",
+    "model": "Corolla Hatchback",
+    "year": 2020,
+    "image": "https://media.ed.edmunds-media.com/toyota/corolla/2020/oem/2020_toyota_corolla_hatchback-angular-front.jpg"
+  },
+  {
+    "id": 4,
+    "make": "Toyota",
+    "model": "Corolla Sedan",
+    "year": 2020,
+    "image": "https://cdn.motor1.com/images/mgl/0x9zZ/s1/2020-toyota-corolla-sedan.jpg"
+  },
+  {
+    "id": 5,
+    "make": "Toyota",
+    "model": "Corolla Hybrid",
+    "year": 2020,
+    "image": "https://www.toyota.com/imgix/content/dam/toyota/jellies/photos/2020/corolla-hybrid/2020-toyota-corolla-hybrid-le-blueprint.jpg"
+  },
+  {
+    "id": 6,
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2021,
+    "image": "https://www.caranddriver.com/photos/a37398114/2022-honda-civic-sport-black-fwd-angular-front/" 
+  },
+  {
+    "id": 7,
+    "make": "Honda",
+    "model": "Civic Hatchback",
+    "year": 2021,
+    "image": "https://www.executivehonda.com/images/2021-honda-civic-hatchback-gray.jpg"
+  },
+  {
+    "id": 8,
+    "make": "Honda",
+    "model": "Civic Sedan",
+    "year": 2021,
+    "image": "https://media.kbb.com/image/upload/v1618515866/kbb/2021-honda-civic-ex-sedan-side.jpg"
+  },
+  {
+    "id": 9,
+    "make": "Honda",
+    "model": "Civic Si",
+    "year": 2021,
+    "image": "https://www.hondanews.com/en-US/honda-automobiles/releases/2021-civic-si-lead/"
+  },
+  {
+    "id": 10,
+    "make": "Honda",
+    "model": "Civic Sedan",
+    "year": 2021,
+    "image": "https://cdn.motor1.com/images/mgl/0Jb1o/s1/2021-honda-civic-blue.jpg"
+  },
+  {
+    "id": 11,
+    "make": "Ford",
+    "model": "Focus ST",
+    "year": 2020,
+    "image": "https://media.ford.com/content/fordmedia/fna/us/en/galleries/2020/Fusion-ST/gallery.html"
+  },
+  {
+    "id": 12,
+    "make": "Ford",
+    "model": "Focus ST",
+    "year": 2020,
+    "image": "https://www.autoblog.com/gallery/2020-ford-focus-st-yellow/2142700/"
+  },
+  {
+    "id": 13,
+    "make": "Ford",
+    "model": "Focus ST",
+    "year": 2020,
+    "image": "https://www.mad4wheels.com/images/2020-ford-focus-st-orange.jpg"
+  },
+  {
+    "id": 14,
+    "make": "Ford",
+    "model": "Focus ST",
+    "year": 2020,
+    "image": "https://cdn.motor1.com/images/mgl/Q9J9O/s1/2020-ford-focus-st-wallpaper.jpg"
+  },
+  {
+    "id": 15,
+    "make": "Ford",
+    "model": "Focus ST Edition",
+    "year": 2020,
+    "image": "https://media.ford.com/content/fordmedia/fna/us/en/products/focus-st/edition-blue.html"
+  },
+  {
+    "id": 16,
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "year": 2022,
+    "image": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicles/2022/sedans/malibu/mov/01-images/2022-malibu-1lt-mosaic-restblend.jpg"
+  },
+  {
+    "id": 17,
+    "make": "Hyundai",
+    "model": "Elantra",
+    "year": 2023,
+    "image": "https://cdn.motor1.com/images/mgl/8Jwyg/s1/2023-hyundai-elantra-sport.jpg"
+  },
+  {
+    "id": 18,
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2020,
+    "image": "https://www.nissanusa.com/content/dam/Nissan/us/vehicles/altima/2020/overview/2020-nissan-altima-nm-front.png"
+  },
+  {
+    "id": 19,
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "year": 2021,
+    "image": "https://cdn.motor1.com/images/mgl/0JBLX/s1/2021-vw-jetta-front.jpg"
+  },
+  {
+    "id": 20,
+    "make": "Subaru",
+    "model": "Impreza",
+    "year": 2019,
+    "image": "https://cdn.motor1.com/images/mgl/Nr9v1/s1/2019-subaru-impreza-2-0i-sport.jpg"
+  },
+  {
+    "id": 21,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "year": 2022,
+    "image": "https://www.mazdausa.com/siteassets/vehicles/2022/mazda3/2022-mazda3-4dr-signature.jpg"
+  },
+  {
+    "id": 22,
+    "make": "Kia",
+    "model": "Forte",
+    "year": 2023,
+    "image": "https://cdn.motor1.com/images/mgl/4dZbd/s1/2023-kia-forte-sport.jpg"
+  },
+  {
+    "id": 23,
+    "make": "BMW",
+    "model": "3 Series",
+    "year": 2020,
+    "image": "https://cdn.motor1.com/images/mgl/0Zp4T/s1/2020-bmw-3-series-sportline.jpg"
+  },
+  {
+    "id": 24,
+    "make": "Audi",
+    "model": "A4",
+    "year": 2021,
+    "image": "https://cdn.motor1.com/images/mgl/1fYja/s1/2021-audi-a4-45t.jpg"
+  },
+  {
+    "id": 25,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2019,
+    "image": "https://cdn.motor1.com/images/mgl/0lpxT/s1/2019-mercedes-c-class-w205.jpg"
+  },
+  {
+    "id": 26,
+    "make": "Lexus",
+    "model": "IS",
+    "year": 2022,
+    "image": "https://cdn.motor1.com/images/mgl/1uX3e/s1/2022-lexus-is350.jpg"
+  },
+  {
+    "id": 27,
+    "make": "Acura",
+    "model": "TLX",
+    "year": 2023,
+    "image": "https://cdn.motor1.com/images/mgl/3EfGt/s1/2023-acura-tlx-a-spec.jpg"
+  },
+  {
+    "id": 28,
+    "make": "Infiniti",
+    "model": "Q50",
+    "year": 2020,
+    "image": "https://cdn.motor1.com/images/mgl/5B4Rx/s1/2020-infiniti-q50-sport.jpg"
+  },
+  {
+    "id": 29,
+    "make": "Volvo",
+    "model": "S60",
+    "year": 2021,
+    "image": "https://cdn.motor1.com/images/mgl/4sQzZ/s1/2021-volvo-s60-b5.jpg"
+  },
+  {
+    "id": 30,
+    "make": "Jaguar",
+    "model": "XE",
+    "year": 2019,
+    "image": "https://cdn.motor1.com/images/mgl/Z5q9X/s1/2019-jaguar-xe.jpg"
+  },
+  {
+    "id": 31,
+    "make": "Genesis",
+    "model": "G70",
+    "year": 2022,
+    "image": "https://cdn.motor1.com/images/mgl/0Kz9a/s1/2022-genesis-g70-sport.jpg"
+  },
+  {
+    "id": 32,
+    "make": "Alfa Romeo",
+    "model": "Giulia",
+    "year": 2023,
+    "image": "https://cdn.motor1.com/images/mgl/2JX9n/s1/2023-alfa-giulia-ti.jpg"
+  },
+  {
+    "id": 33,
+    "make": "Tesla",
+    "model": "Model 3",
+    "year": 2020,
+    "image": "https://cdn.motor1.com/images/mgl/0E45h/s1/2020-tesla-model-3-performance.jpg"
+  },
+  {
+    "id": 34,
+    "make": "Toyota",
+    "model": "Prius",
+    "year": 2021,
+    "image": "https://cdn.motor1.com/images/mgl/5Pw2A/s1/2021-toyota-prius-prime.jpg"
+  },
+  {
+    "id": 35,
+    "make": "Honda",
+    "model": "Insight",
+    "year": 2019,
+    "image": "https://cdn.motor1.com/images/mgl/5Lx8M/s1/2019-honda-insight.jpg"
+  },
+  {
+    "id": 36,
+    "make": "Ford",
+    "model": "Fusion Hybrid",
+    "year": 2022,
+    "image": "https://cdn.motor1.com/images/mgl/1Qz2Y/s1/2022-ford-fusion-hybrid.jpg"
+  },
+  {
+    "id": 37,
+    "make": "Hyundai",
+    "model": "Ioniq",
+    "year": 2023,
+    "image": "https://cdn.motor1.com/images/mgl/6Yw3Z/s1/2023-hyundai-ioniq-5.jpg"
+  },
+  {
+    "id": 38,
+    "make": "Kia",
+    "model": "Niro",
+    "year": 2020,
+    "image": "https://cdn.motor1.com/images/mgl/7Xw5Z/s1/2020-kia-niro.jpg"
+  },
+  {
+    "id": 39,
+    "make": "Nissan",
+    "model": "Leaf",
+    "year": 2021,
+    "image": "https://cdn.motor1.com/images/mgl/8Kw9Y/s1/2021-nissan-leaf.jpg"
+  },
+  {
+    "id": 40,
+    "make": "Chevrolet",
+    "model": "Bolt",
+    "year": 2019,
+    "image": "https://cdn.motor1.com/images/mgl/9Dy0Z/s1/2019-chevrolet-bolt-ev.jpg"
+  },
+  {
+    "id": 41,
+    "make": "BMW",
+    "model": "i3",
+    "year": 2022,
+    "image": "https://cdn.motor1.com/images/mgl/Az3Ab/s1/2022-bmw-i3.jpg"
+  },
+  {
+    "id": 42,
+    "make": "Volkswagen",
+    "model": "e‑Golf",
+    "year": 2023,
+    "image": "https://cdn.motor1.com/images/mgl/Bx4Bc/s1/2023-vw-e-golf.jpg"
+  },
+  {
+    "id": 43,
+    "make": "Tesla",
+    "model": "Model S",
+    "year": 2020,
+    "image": "https://cdn.motor1.com/images/mgl/Cd5Cd/s1/2020-tesla-model-s.jpg"
+  },
+  {
+    "id": 44,
+    "make": "Audi",
+    "model": "e‑tron",
+    "year": 2021,
+    "image": "https://cdn.motor1.com/images/mgl/De6De/s1/2021-audi-e-tron.jpg"
+  },
+  {
+    "id": 45,
+    "make": "Mercedes‑Benz",
+    "model": "EQC",
+    "year": 2019,
+    "image": "https://cdn.motor1.com/images/mgl/Ef7Ef/s1/2019-mercedes-eqc.jpg"
+  },
+  {
+    "id": 46,
+    "make": "Jaguar",
+    "model": "I‑Pace",
+    "year": 2022,
+    "image": "https://cdn.motor1.com/images/mgl/Fg8Fg/s1/2022-jaguar-i-pace.jpg"
+  },
+  {
+    "id": 47,
+    "make": "Porsche",
+    "model": "Taycan",
+    "year": 2023,
+    "image": "https://cdn.motor1.com/images/mgl/Gh9Gh/s1/2023-porsche-taycan.jpg"
+  },
+  {
+    "id": 48,
+    "make": "Ford",
+    "model": "Mustang Mach‑E",
+    "year": 2020,
+    "image": "https://cdn.motor1.com/images/mgl/Hi1Hi/s1/2020-ford-mustang-mach-e.jpg"
+  },
+  {
+    "id": 49,
+    "make": "Hyundai",
+    "model": "Kona Electric",
+    "year": 2021,
+    "image": "https://cdn.motor1.com/images/mgl/Ij2Ij/s1/2021-hyundai-kona-electric.jpg"
+  },
+  {
+    "id": 50,
+    "make": "Kia",
+    "model": "EV6",
+    "year": 2019,
+    "image": "https://cdn.motor1.com/images/mgl/Jk3Jk/s1/2019-kia-ev6.jpg"
+  }
+]
+
 }
