@@ -1,30 +1,36 @@
 import React from "react";
 import { useInfiniteQuery } from "@tanstack/react-query";
 import axios from "axios";
+import { cn } from "../../utils/cn";
 const fetchCars = async ({ pageParam }) => {
+  console.log(pageParam)
   console.log(pageParam);
   const res = await axios.get(
-    `http://localhost:4000/cars/?_limit=12&_page=${pageParam}`
+    `http://localhost:4000/cars/?_limit=10&_page=${pageParam}`
   );
   return res.data;
 };
 
 const InfiniteScroll = () => {
-  const { data, isLoading, error } = useInfiniteQuery({
+  const { data, isLoading, error ,fetchNextPage ,hasNextPage} = useInfiniteQuery({
     queryKey: ["car"],
     queryFn: fetchCars,
     staleTime: 3000,
     initialPageParam: 1,
     getNextPageParam: (_lastPage, allPage) => {
-      if (allPage?.lenght < 10) {
-        return allPage?.length + 1;
+
+      if (allPage?.length < 5) {
+        return allPage.length + 1;
       } else {
         return undefined;
       }
     },
   });
 
-  console.log(data);
+
+
+
+console.log(data)
   if (isLoading)
     return (
       <div className="flex justify-center items-center h-64">
@@ -61,7 +67,8 @@ const InfiniteScroll = () => {
                   />
                   <div className="p-5">
                     <h2 className="text-xl font-semibold text-gray-800">
-                      {car.make}
+                      {car.make} 
+                      <span className="font-bold text-4xl">{car.id}</span>
                     </h2>
                     <p className="text-gray-600">{car.model}</p>
                     <p className="text-gray-500 mt-1">Year: {car.year}</p>
@@ -72,6 +79,9 @@ const InfiniteScroll = () => {
           )}
         </div>
       </div>
+      <button onClick={fetchNextPage} disabled={!hasNextPage} className={cn("bg-red-600",{
+        "!w-[200px] h-[200px] rounded-full bg-amber-400":!hasNextPage
+      })}>{!hasNextPage?"Hooolalalholala":"Load More"}</button>
     </div>
   );
 };
