@@ -11,6 +11,7 @@ import HomePage from "./components/HomePage";
 import PostDetailPage from "./components/PostDetailPage";
 import Cars from "./components/CarsList";
 import InfiniteScroll from "./components/InfiniteScroll";
+import Todo from "./components/Todo";
 function App() {
   return (
     <BrowserRouter>
@@ -22,9 +23,10 @@ function App() {
           <Route path="examples" element={<ExamplesPage />} />
           <Route path="community" element={<CommunityPage />} />
           <Route path="code" element={<PostFeed />} />
-          <Route path="post-detail/:id" element={<PostDetailPage/>}/>
-          <Route path="cars" element={<Cars/>}/>
-          <Route  path="infinite-scroll" element={<InfiniteScroll/>}/>
+          <Route path="post-detail/:id" element={<PostDetailPage />} />
+          <Route path="cars" element={<Cars />} />
+          <Route path="infinite-scroll" element={<InfiniteScroll />} />
+          <Route path="todo" element={<Todo />} />
         </Route>
       </Routes>
     </BrowserRouter>

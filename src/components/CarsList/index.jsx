@@ -26,13 +26,15 @@ const Cars = () => {
         <p className="text-xl text-red-500">Error fetching cars</p>
       </div>
     );
-console.log(data)
+  console.log(data);
   return (
     <div className="bg-gray-100 min-h-screen py-10 px-4">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl font-bold text-center text-gray-800 mb-10">🚗 Available Cars</h1>
+        <h1 className="text-4xl font-bold text-center text-gray-800 mb-10">
+          🚗 Available Cars
+        </h1>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {data?.map((car) => (
             <div
               key={car.id}
@@ -44,7 +46,9 @@ console.log(data)
                 className="w-full h-48 object-cover"
               />
               <div className="p-5">
-                <h2 className="text-xl font-semibold text-gray-800">{car.make}</h2>
+                <h2 className="text-xl font-semibold text-gray-800">
+                  {car.make}
+                </h2>
                 <p className="text-gray-600">{car.model}</p>
                 <p className="text-gray-500 mt-1">Year: {car.year}</p>
               </div>
